@@ -2489,6 +2489,11 @@ class SystemExit
   def success?(); end
 end
 
+module Test
+  extend ::T::Private::Methods::MethodHooks
+  extend ::T::Private::Methods::SingletonMethodHooks
+end
+
 class TracePoint
   def __enable(_, _1); end
 
