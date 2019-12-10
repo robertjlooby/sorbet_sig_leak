@@ -154,8 +154,6 @@
 # wrong constant name shelljoin
 # wrong constant name to_h
 # wrong constant name try_convert
-# uninitialized constant Base64
-# uninitialized constant Base64
 # wrong constant name <Class:BasicObject>
 # uninitialized constant Benchmark
 # uninitialized constant Benchmark
@@ -582,6 +580,123 @@
 # wrong constant name empty?
 # wrong constant name for
 # wrong constant name for_many
+# undefined method `a<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `base<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `blockquote<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `caption<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `checkbox<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `checkbox<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `checkbox<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `checkbox_group<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `file_field<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `file_field<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `file_field<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `form<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `form<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `form<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `hidden<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `hidden<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `html<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `image_button<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `image_button<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `image_button<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `img<defaultArg>4' for module `CGI::HtmlExtension'
+# undefined method `multipart_form<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `multipart_form<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `password_field<defaultArg>4' for module `CGI::HtmlExtension'
+# undefined method `popup_menu<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `radio_button<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `radio_button<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `radio_button<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `radio_group<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `reset<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `reset<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `scrolling_list<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `submit<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `submit<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>3' for module `CGI::HtmlExtension'
+# undefined method `text_field<defaultArg>4' for module `CGI::HtmlExtension'
+# undefined method `textarea<defaultArg>1' for module `CGI::HtmlExtension'
+# undefined method `textarea<defaultArg>2' for module `CGI::HtmlExtension'
+# undefined method `textarea<defaultArg>3' for module `CGI::HtmlExtension'
+# wrong constant name a<defaultArg>1
+# wrong constant name a
+# wrong constant name base<defaultArg>1
+# wrong constant name base
+# wrong constant name blockquote<defaultArg>1
+# wrong constant name blockquote
+# wrong constant name caption<defaultArg>1
+# wrong constant name caption
+# wrong constant name checkbox<defaultArg>1
+# wrong constant name checkbox<defaultArg>2
+# wrong constant name checkbox<defaultArg>3
+# wrong constant name checkbox
+# wrong constant name checkbox_group<defaultArg>1
+# wrong constant name checkbox_group
+# wrong constant name file_field<defaultArg>1
+# wrong constant name file_field<defaultArg>2
+# wrong constant name file_field<defaultArg>3
+# wrong constant name file_field
+# wrong constant name form<defaultArg>1
+# wrong constant name form<defaultArg>2
+# wrong constant name form<defaultArg>3
+# wrong constant name form
+# wrong constant name hidden<defaultArg>1
+# wrong constant name hidden<defaultArg>2
+# wrong constant name hidden
+# wrong constant name html<defaultArg>1
+# wrong constant name html
+# wrong constant name image_button<defaultArg>1
+# wrong constant name image_button<defaultArg>2
+# wrong constant name image_button<defaultArg>3
+# wrong constant name image_button
+# wrong constant name img<defaultArg>1
+# wrong constant name img<defaultArg>2
+# wrong constant name img<defaultArg>3
+# wrong constant name img<defaultArg>4
+# wrong constant name img
+# wrong constant name multipart_form<defaultArg>1
+# wrong constant name multipart_form<defaultArg>2
+# wrong constant name multipart_form
+# wrong constant name password_field<defaultArg>1
+# wrong constant name password_field<defaultArg>2
+# wrong constant name password_field<defaultArg>3
+# wrong constant name password_field<defaultArg>4
+# wrong constant name password_field
+# wrong constant name popup_menu<defaultArg>1
+# wrong constant name popup_menu
+# wrong constant name radio_button<defaultArg>1
+# wrong constant name radio_button<defaultArg>2
+# wrong constant name radio_button<defaultArg>3
+# wrong constant name radio_button
+# wrong constant name radio_group<defaultArg>1
+# wrong constant name radio_group
+# wrong constant name reset<defaultArg>1
+# wrong constant name reset<defaultArg>2
+# wrong constant name reset
+# wrong constant name scrolling_list<defaultArg>1
+# wrong constant name scrolling_list
+# wrong constant name submit<defaultArg>1
+# wrong constant name submit<defaultArg>2
+# wrong constant name submit
+# wrong constant name text_field<defaultArg>1
+# wrong constant name text_field<defaultArg>2
+# wrong constant name text_field<defaultArg>3
+# wrong constant name text_field<defaultArg>4
+# wrong constant name text_field
+# wrong constant name textarea<defaultArg>1
+# wrong constant name textarea<defaultArg>2
+# wrong constant name textarea<defaultArg>3
+# wrong constant name textarea
+# wrong constant name <static-init>
 # uninitialized constant CSV
 # uninitialized constant CSV
 # uninitialized constant Chalk
@@ -664,6 +779,19 @@
 # wrong constant name exists?
 # wrong constant name mktmpdir<defaultArg>1
 # wrong constant name tmpdir
+# undefined method `def_method<defaultArg>1' for class `ERB'
+# undefined method `def_module<defaultArg>1' for class `ERB'
+# undefined method `initialize<defaultArg>4' for class `ERB'
+# Did you mean?  initialize_dup
+# undefined method `initialize<defaultArg>5' for class `ERB'
+# Did you mean?  initialize_dup
+# wrong constant name def_method<defaultArg>1
+# wrong constant name def_method
+# wrong constant name def_module<defaultArg>1
+# wrong constant name def_module
+# wrong constant name initialize<defaultArg>4
+# wrong constant name initialize<defaultArg>5
+# wrong constant name result_with_hash
 # wrong constant name _dump
 # wrong constant name convert
 # wrong constant name convpath
@@ -784,6 +912,8 @@
 # uninitialized constant Exception2MessageMapper
 # wrong constant name <static-init>
 # wrong constant name resume
+# wrong constant name transfer
+# wrong constant name current
 # wrong constant name yield
 # wrong constant name size?
 # wrong constant name empty?
@@ -1091,7 +1221,9 @@
 # wrong constant name last_status
 # wrong constant name setpgrp
 # uninitialized constant Racc
+# Did you mean?  Rack
 # uninitialized constant Racc
+# Did you mean?  Rack
 # undefined method `alphanumeric<defaultArg>1' for module `Random::Formatter'
 # undefined method `random_bytes<defaultArg>1' for module `Random::Formatter'
 # undefined method `urlsafe_base64<defaultArg>1' for module `Random::Formatter'
@@ -1118,6 +1250,91 @@
 # wrong constant name match?
 # uninitialized constant Ripper
 # uninitialized constant Ripper
+# wrong constant name <Class:CallInfoPrinter>
+# wrong constant name <Class:CallInfoVisitor>
+# wrong constant name <Class:CallStackPrinter>
+# wrong constant name <Class:CallTreePrinter>
+# wrong constant name <Class:DotPrinter>
+# wrong constant name <Class:FlatPrinter>
+# wrong constant name <Class:GraphPrinter>
+# wrong constant name <Class:Measure>
+# wrong constant name <Class:MultiPrinter>
+# wrong constant name <static-init>
+# wrong constant name initialize
+# wrong constant name visit
+# wrong constant name <static-init>
+# wrong constant name application
+# wrong constant name arguments
+# wrong constant name base64_image
+# wrong constant name color
+# wrong constant name dump
+# wrong constant name expansion
+# wrong constant name graph_link
+# wrong constant name link
+# wrong constant name method_href
+# wrong constant name name
+# wrong constant name open_asset
+# wrong constant name print_commands
+# wrong constant name print_css
+# wrong constant name print_footer
+# wrong constant name print_header
+# wrong constant name print_help
+# wrong constant name print_java_script
+# wrong constant name print_stack
+# wrong constant name print_title_bar
+# wrong constant name sum
+# wrong constant name threshold
+# wrong constant name title
+# wrong constant name total_time
+# wrong constant name <static-init>
+# undefined method `print<defaultArg>1' for class `RubyProf::CallTreePrinter'
+# wrong constant name base_name
+# wrong constant name calltree_name
+# wrong constant name convert
+# wrong constant name determine_event_specification_and_value_scale
+# wrong constant name file
+# wrong constant name file_name_for_thread
+# wrong constant name file_path_for_thread
+# wrong constant name path
+# wrong constant name print<defaultArg>1
+# wrong constant name print
+# wrong constant name print_headers
+# wrong constant name print_method
+# wrong constant name remove_subsidiary_files_from_previous_profile_runs
+# wrong constant name validate_print_params
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <Class:Allocations>
+# wrong constant name <Class:ProcessTime>
+# wrong constant name <Class:WallTime>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `RubyProf::MultiPrinter'
+# Did you mean?  initialize_dup
+# wrong constant name call_info_report
+# wrong constant name dot_report
+# wrong constant name flat_report
+# wrong constant name graph_html_report
+# wrong constant name graph_report
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name print
+# wrong constant name print_to_call_info
+# wrong constant name print_to_dot
+# wrong constant name print_to_flat
+# wrong constant name print_to_graph
+# wrong constant name print_to_graph_html
+# wrong constant name print_to_stack
+# wrong constant name print_to_tree
+# wrong constant name stack_report
+# wrong constant name tree_report
+# wrong constant name validate_print_params
+# wrong constant name <static-init>
+# wrong constant name needs_dir?
 # wrong constant name <Class:Node>
 # wrong constant name children
 # wrong constant name first_column
@@ -1374,6 +1591,50 @@
 # wrong constant name unpack1
 # wrong constant name length
 # wrong constant name truncate
+# wrong constant name <<
+# wrong constant name []
+# wrong constant name beginning_of_line?
+# wrong constant name bol?
+# wrong constant name captures
+# wrong constant name charpos
+# wrong constant name check
+# wrong constant name check_until
+# wrong constant name clear
+# wrong constant name concat
+# wrong constant name empty?
+# wrong constant name exist?
+# wrong constant name get_byte
+# wrong constant name getbyte
+# wrong constant name initialize
+# wrong constant name match?
+# wrong constant name matched
+# wrong constant name matched?
+# wrong constant name matched_size
+# wrong constant name peek
+# wrong constant name peep
+# wrong constant name pointer
+# wrong constant name pointer=
+# wrong constant name pos
+# wrong constant name pos=
+# wrong constant name post_match
+# wrong constant name pre_match
+# wrong constant name reset
+# wrong constant name rest
+# wrong constant name rest?
+# wrong constant name rest_size
+# wrong constant name restsize
+# wrong constant name scan_full
+# wrong constant name scan_until
+# wrong constant name search_full
+# wrong constant name size
+# wrong constant name skip
+# wrong constant name skip_until
+# wrong constant name string
+# wrong constant name string=
+# wrong constant name terminate
+# wrong constant name unscan
+# wrong constant name values_at
+# wrong constant name must_C_version
 # wrong constant name []
 # wrong constant name []=
 # wrong constant name dig

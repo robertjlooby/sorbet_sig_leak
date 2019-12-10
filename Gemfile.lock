@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ruby-prof (1.0.0)
     sorbet (0.4.5135)
       sorbet-static (= 0.4.5135)
     sorbet-runtime (0.4.5135)
@@ -10,6 +11,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ruby-prof
   sorbet
   sorbet-runtime
 

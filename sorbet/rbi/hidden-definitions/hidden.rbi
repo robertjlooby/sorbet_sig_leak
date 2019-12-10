@@ -742,6 +742,55 @@ module Bundler::VersionRanges
   def self.for_many(requirements); end
 end
 
+module CGI::HtmlExtension
+  def a(href=T.unsafe(nil)); end
+
+  def base(href=T.unsafe(nil)); end
+
+  def blockquote(cite=T.unsafe(nil)); end
+
+  def caption(align=T.unsafe(nil)); end
+
+  def checkbox(name=T.unsafe(nil), value=T.unsafe(nil), checked=T.unsafe(nil)); end
+
+  def checkbox_group(name=T.unsafe(nil), *values); end
+
+  def file_field(name=T.unsafe(nil), size=T.unsafe(nil), maxlength=T.unsafe(nil)); end
+
+  def form(method=T.unsafe(nil), action=T.unsafe(nil), enctype=T.unsafe(nil)); end
+
+  def hidden(name=T.unsafe(nil), value=T.unsafe(nil)); end
+
+  def html(attributes=T.unsafe(nil)); end
+
+  def image_button(src=T.unsafe(nil), name=T.unsafe(nil), alt=T.unsafe(nil)); end
+
+  def img(src=T.unsafe(nil), alt=T.unsafe(nil), width=T.unsafe(nil), height=T.unsafe(nil)); end
+
+  def multipart_form(action=T.unsafe(nil), enctype=T.unsafe(nil)); end
+
+  def password_field(name=T.unsafe(nil), value=T.unsafe(nil), size=T.unsafe(nil), maxlength=T.unsafe(nil)); end
+
+  def popup_menu(name=T.unsafe(nil), *values); end
+
+  def radio_button(name=T.unsafe(nil), value=T.unsafe(nil), checked=T.unsafe(nil)); end
+
+  def radio_group(name=T.unsafe(nil), *values); end
+
+  def reset(value=T.unsafe(nil), name=T.unsafe(nil)); end
+
+  def scrolling_list(name=T.unsafe(nil), *values); end
+
+  def submit(value=T.unsafe(nil), name=T.unsafe(nil)); end
+
+  def text_field(name=T.unsafe(nil), value=T.unsafe(nil), size=T.unsafe(nil), maxlength=T.unsafe(nil)); end
+
+  def textarea(name=T.unsafe(nil), cols=T.unsafe(nil), rows=T.unsafe(nil)); end
+end
+
+module CGI::HtmlExtension
+end
+
 class Class
   def json_creatable?(); end
 end
@@ -904,6 +953,19 @@ class Dir
   def self.exists?(_); end
 
   def self.tmpdir(); end
+end
+
+class ERB
+  def def_method(mod, methodname, fname=T.unsafe(nil)); end
+
+  def def_module(methodname=T.unsafe(nil)); end
+
+  def result_with_hash(hash); end
+end
+
+class ERB::Compiler::Scanner
+  DEFAULT_ETAGS = ::T.let(nil, ::T.untyped)
+  DEFAULT_STAGS = ::T.let(nil, ::T.untyped)
 end
 
 class Encoding
@@ -1282,9 +1344,13 @@ end
 
 class Fiber
   def resume(*_); end
+
+  def transfer(*_); end
 end
 
 class Fiber
+  def self.current(); end
+
   def self.yield(*_); end
 end
 
@@ -1869,6 +1935,205 @@ class Regexp
   def match?(*_); end
 end
 
+module RubyProf
+  ALLOCATIONS = ::T.let(nil, ::T.untyped)
+  CLOCKS_PER_SEC = ::T.let(nil, ::T.untyped)
+  MEMORY = ::T.let(nil, ::T.untyped)
+  PROCESS_TIME = ::T.let(nil, ::T.untyped)
+  VERSION = ::T.let(nil, ::T.untyped)
+  WALL_TIME = ::T.let(nil, ::T.untyped)
+end
+
+class RubyProf::CallInfoPrinter
+  TIME_WIDTH = ::T.let(nil, ::T.untyped)
+end
+
+class RubyProf::CallInfoPrinter
+end
+
+class RubyProf::CallInfoVisitor
+  def initialize(root_methods); end
+
+  def visit(&block); end
+end
+
+class RubyProf::CallInfoVisitor
+end
+
+class RubyProf::CallStackPrinter
+  include ::ERB::Util
+  def application(); end
+
+  def arguments(); end
+
+  def base64_image(); end
+
+  def color(p); end
+
+  def dump(ci); end
+
+  def expansion(); end
+
+  def graph_link(call_info); end
+
+  def link(call_info); end
+
+  def method_href(method); end
+
+  def name(call_info); end
+
+  def open_asset(file); end
+
+  def print_commands(); end
+
+  def print_css(); end
+
+  def print_footer(); end
+
+  def print_header(); end
+
+  def print_help(); end
+
+  def print_java_script(); end
+
+  def print_stack(visited, call_info, parent_time); end
+
+  def print_title_bar(); end
+
+  def sum(a); end
+
+  def threshold(); end
+
+  def title(); end
+
+  def total_time(call_infos); end
+end
+
+class RubyProf::CallStackPrinter
+end
+
+class RubyProf::CallTreePrinter
+  def base_name(); end
+
+  def calltree_name(method_info); end
+
+  def convert(value); end
+
+  def determine_event_specification_and_value_scale(); end
+
+  def file(method); end
+
+  def file_name_for_thread(thread); end
+
+  def file_path_for_thread(thread); end
+
+  def path(); end
+
+  def print(options=T.unsafe(nil)); end
+
+  def print_headers(output, thread); end
+
+  def print_method(output, method); end
+
+  def remove_subsidiary_files_from_previous_profile_runs(); end
+
+  def validate_print_params(options); end
+end
+
+class RubyProf::CallTreePrinter
+end
+
+class RubyProf::DotPrinter
+  CLASS_COLOR = ::T.let(nil, ::T.untyped)
+  EDGE_COLOR = ::T.let(nil, ::T.untyped)
+end
+
+class RubyProf::DotPrinter
+end
+
+module RubyProf::ExcludeCommonMethods
+  ENUMERABLE_NAMES = ::T.let(nil, ::T.untyped)
+end
+
+class RubyProf::FlatPrinter
+end
+
+class RubyProf::FlatPrinter
+end
+
+class RubyProf::GraphPrinter
+  CALL_WIDTH = ::T.let(nil, ::T.untyped)
+  PERCENTAGE_WIDTH = ::T.let(nil, ::T.untyped)
+  TIME_WIDTH = ::T.let(nil, ::T.untyped)
+end
+
+class RubyProf::GraphPrinter
+end
+
+module RubyProf::Measure
+end
+
+class RubyProf::Measure::Allocations
+end
+
+class RubyProf::Measure::Allocations
+end
+
+class RubyProf::Measure::ProcessTime
+end
+
+class RubyProf::Measure::ProcessTime
+end
+
+class RubyProf::Measure::WallTime
+end
+
+class RubyProf::Measure::WallTime
+end
+
+module RubyProf::Measure
+end
+
+class RubyProf::MultiPrinter
+  def call_info_report(); end
+
+  def dot_report(); end
+
+  def flat_report(); end
+
+  def graph_html_report(); end
+
+  def graph_report(); end
+
+  def initialize(result, printers=T.unsafe(nil)); end
+
+  def print(options); end
+
+  def print_to_call_info(options); end
+
+  def print_to_dot(options); end
+
+  def print_to_flat(options); end
+
+  def print_to_graph(options); end
+
+  def print_to_graph_html(options); end
+
+  def print_to_stack(options); end
+
+  def print_to_tree(options); end
+
+  def stack_report(); end
+
+  def tree_report(); end
+
+  def validate_print_params(options); end
+end
+
+class RubyProf::MultiPrinter
+  def self.needs_dir?(); end
+end
+
 module RubyVM::AbstractSyntaxTree
 end
 
@@ -1959,6 +2224,8 @@ class RubyVM
 
   def self.stat(*_); end
 end
+
+ScanError = StringScanner::Error
 
 class Set
   def ==(other); end
@@ -2443,6 +2710,100 @@ class StringIO
   def length(); end
 
   def truncate(_); end
+end
+
+class StringScanner
+  def <<(_); end
+
+  def [](_); end
+
+  def beginning_of_line?(); end
+
+  def bol?(); end
+
+  def captures(); end
+
+  def charpos(); end
+
+  def check(_); end
+
+  def check_until(_); end
+
+  def clear(); end
+
+  def concat(_); end
+
+  def empty?(); end
+
+  def exist?(_); end
+
+  def get_byte(); end
+
+  def getbyte(); end
+
+  def initialize(*_); end
+
+  def match?(_); end
+
+  def matched(); end
+
+  def matched?(); end
+
+  def matched_size(); end
+
+  def peek(_); end
+
+  def peep(_); end
+
+  def pointer(); end
+
+  def pointer=(pointer); end
+
+  def pos(); end
+
+  def pos=(pos); end
+
+  def post_match(); end
+
+  def pre_match(); end
+
+  def reset(); end
+
+  def rest(); end
+
+  def rest?(); end
+
+  def rest_size(); end
+
+  def restsize(); end
+
+  def scan_full(_, _1, _2); end
+
+  def scan_until(_); end
+
+  def search_full(_, _1, _2); end
+
+  def size(); end
+
+  def skip(_); end
+
+  def skip_until(_); end
+
+  def string(); end
+
+  def string=(string); end
+
+  def terminate(); end
+
+  def unscan(); end
+
+  def values_at(*_); end
+  Id = ::T.let(nil, ::T.untyped)
+  Version = ::T.let(nil, ::T.untyped)
+end
+
+class StringScanner
+  def self.must_C_version(); end
 end
 
 class Struct
